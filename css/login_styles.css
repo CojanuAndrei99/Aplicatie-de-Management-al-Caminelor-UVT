@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : May 4, 2020, 8:31:34 PM
+    Author     : andre
+*/
+
+.center_div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-image: url('../res/Universitatea-de-Vest-Timisoara.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.panel {
+    display: inline-block;
+    background: #1d8fd1;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+    opacity: 0.7;
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.panellogin {
+    display: inline-block;
+    padding: 10px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    min-height: 100px;
+    min-width: 100px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.paneltitluforma {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 10px;
+    min-width: 10px;
+    height: 25px;
+    width: 500px;
+}
+
+.paneltitlu {
+    display: inline-block;
+    padding: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 25px;
+    min-height: 10px;
+    min-width: 10px;
+    height: 25px;
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1d8fd1;
+    opacity: 0.8;
+}
+
+.logintext {
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.loginbutton {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate( -50%);
+    transform: translate(-50%);
+    border: 1px solid;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    width: 100px;
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px #000000;
+    background-color: #1d8fd1;
+}
+
+.titletextstyle {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 0;
+    text-shadow: 1px 1px #000000;
+    font-family: "Times New Roman", Times, serif;
+}
+
+input[type=text] {
+    display: inline-block;
+    background: #ffffff;
+    padding: 3px;
+    border-style: none;
+    border-radius: 10px;
+    min-height: 5px;
+    height: 22px;
+    min-width: 5px;
+    outline: none;
+}
+
+input[type=password] {
+    display: inline-block;
+    background: #ffffff;
+    padding: 3px;
+    border-style: none;
+    border-radius: 10px;
+    min-height: 5px;
+    height: 22px;
+    min-width: 5px;
+    outline: none;
+}

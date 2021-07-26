@@ -1,0 +1,105 @@
+th {
+    color: white;
+    background-color: #08457E;
+    height: 25px;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #000000;
+    font-size: 20px;
+    text-align: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+tr {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid;
+}
+
+.add {
+    display: inline-block;
+    background: #08457E;
+    padding: 10px;
+    min-height: 5%;
+    min-width: 5%;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modificarepanel {
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #08457E;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px;
+    font-size: 150%;
+    border-style: solid;
+    border-radius: 25px;
+    min-height: 5%;
+    width: 250px;
+}
+
+.textpanel {
+    background: #08457E;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px;
+    font-size: 150%;
+    border-style: solid;
+    border-radius: 25px;
+    min-height: 3%;
+    min-width: 7%;
+}
+
+p {
+    display: inline-block;
+    background: #08457E;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    font-size: 100%;
+    color: white;
+}
+
+.addbutton {
+    border: 1px solid;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    width: 200px;
+    color: #ffffff;
+    text-shadow: 0.5px 0.5px #000000;
+    background-color: #0c3386;
+}
+
+.center_div {
+    transform: translate(-50%, 0%);
+}
+
+select {
+    background-color: #08457E;
+    color: white;
+    min-width: 10px;
+    font-size: 90%;
+}
+
+select:focus {
+    outline: 0;
+}
